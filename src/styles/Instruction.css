@@ -1,0 +1,99 @@
+.lab__instructions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 32rem;
+  border-radius: 0.5rem;
+}
+
+.instruction__title {
+  margin: 0;
+  padding: 3rem 0 1rem 0;
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--text-dark-blue);
+}
+
+.instruction__icon {
+  margin: 0;
+  font-size: 3rem;
+}
+
+.instruction__description {
+  margin: 0;
+  padding: 1rem 0;
+  color: var(--text-grey-blue);
+}
+
+.instruction__detail {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 0;
+  gap: 1rem;
+}
+
+.detail__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 5px;
+  border: 1px solid var(--button-light-border);
+  min-width: 15rem;
+  max-width: 20rem;
+}
+
+.detail__title {
+  margin: 0;
+  padding-top: 0.5rem;
+  font-size: 0.85rem;
+  text-align: center;
+  color: var(--text-grey);
+  text-transform: uppercase;
+}
+
+.detail__content {
+  margin: 0;
+  padding-bottom: 0.5rem;
+  font-size: 0.85rem;
+  text-align: center;
+  color: var(--text-grey-blue);
+}
+
+.instruction__list {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+  color: var(--text-grey);
+}
+
+.instruction__buttons {
+  width: calc(100% - 4rem);
+  margin-top: auto;
+  padding: 1.5rem 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 1px solid var(--button-light-border);
+}
+
+.button__start {
+  padding: 0.75rem 3rem;
+  border-radius: 5px;
+  border: 1px solid var(--button-blue);
+  background-color: var(--button-blue);
+  color: white;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+.button__cancel {
+  padding: 0.75rem 3rem;
+  border-radius: 5px;
+  border: 1px solid var(--button-blue);
+  background-color: var(--button-background);
+  color: var(--button-blue);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}

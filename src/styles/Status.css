@@ -1,0 +1,14 @@
+.status {
+  width: 100%;
+  margin-top: 0.2rem;
+  color: var(--text-red);
+  font-size: 0.85rem;
+}
+
+.status__center {
+  width: 100%;
+  margin: 1rem 0 2rem 0;
+  color: var(--text-red);
+  font-size: 0.85rem;
+  text-align: center;
+}

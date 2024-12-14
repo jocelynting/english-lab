@@ -1,0 +1,14 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: center;
+
+  min-width: 50rem;
+  max-width: calc(100vw - 5rem);
+
+  margin: auto;
+
+  background-color: var(--backgrount-main-color);
+  border-radius: 8px;
+}

@@ -1,0 +1,38 @@
+.app__spinner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login__loading {
+  margin: 10rem auto;
+}
+
+.data__loading {
+  margin: 3rem auto 1rem;
+}
+
+.spinner {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 5px solid #ccc;
+  border-top: 5px solid var(--text-dark-blue);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.spinner__title {
+  margin: 0;
+  text-align: center;
+  color: var(--text-dark-blue);
+  font-weight: bold;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
